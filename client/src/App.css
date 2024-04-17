@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+table tr td {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table :first-child {
+  border-left: 1px solid black;
+}
